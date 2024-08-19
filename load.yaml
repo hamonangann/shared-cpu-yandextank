@@ -1,0 +1,11 @@
+phantom:
+  address: 127.0.0.1:8000
+  uris:
+    - /
+  load_profile:
+    load_type: rps
+    schedule: const(5, 15s) const(4, 15s) const(4, 15s) const(4, 15s) const(4, 15s) const(4, 15s) const(5, 15s) const(4, 15s) const(5, 15s) const(4, 15s) const(5, 15s) const(4, 15s) const(4, 15s) const(4, 15s) const(4, 15s) const(19, 15s) const(28, 15s) const(26, 15s) const(27, 15s) const(27, 15s) const(26, 15s) const(26, 15s) const(25, 15s) const(26, 15s) const(25, 15s) const(26, 15s) const(25, 15s) const(27, 15s) const(26, 15s) const(27, 15s) const(25, 15s) const(27, 15s) const(43, 15s) const(36, 15s) const(31, 15s) const(30, 15s) const(31, 15s) const(32, 15s) const(32, 15s) const(31, 15s) const(31, 15s) const(31, 15s) const(33, 15s) const(37, 15s) const(33, 15s) const(32, 15s) const(33, 15s) const(35, 15s) const(33, 15s) const(37, 15s) const(34, 15s) const(35, 15s) const(38, 15s) const(36, 15s) const(35, 15s) const(34, 15s) const(37, 15s) const(36, 15s) const(30, 15s) const(29, 15s) const(29, 15s) const(29, 15s) const(30, 15s) const(30, 15s) const(32, 15s) const(29, 15s) const(29, 15s) const(28, 15s) const(26, 15s) const(26, 15s) const(26, 15s) const(26, 15s) const(28, 15s) const(27, 15s) const(29, 15s) const(28, 15s) const(25, 15s) const(25, 15s) const(24, 15s) const(24, 15s) const(22, 15s) const(24, 15s) const(23, 15s) const(22, 15s) const(22, 15s) const(21, 15s) const(20, 15s) const(19, 15s) const(19, 15s) const(19, 15s) const(20, 15s) const(19, 15s) const(19, 15s) const(18, 15s) const(19, 15s) const(18, 15s) const(18, 15s) const(20, 15s) const(19, 15s) const(19, 15s) const(19, 15s) const(19, 15s) const(21, 15s) const(20, 15s) const(20, 15s) const(21, 15s) const(21, 15s) const(21, 15s) const(21, 15s) const(22, 15s) const(23, 15s) const(22, 15s) const(23, 15s) const(23, 15s) const(24, 15s) const(23, 15s) const(23, 15s) const(23, 15s) const(21, 15s) const(22, 15s) const(23, 15s) const(22, 15s) const(25, 15s) const(26, 15s) const(24, 15s) const(23, 15s) const(24, 15s) const(23, 15s) const(23, 15s) const(24, 15s) const(25, 15s) const(23, 15s) const(25, 15s) const(32, 15s) const(30, 15s) const(31, 15s) const(30, 15s) const(27, 15s) const(22, 15s) const(21, 15s) const(24, 15s) const(22, 15s) const(23, 15s) const(24, 15s)
+console:
+  enabled: true
+telegraf:
+  enabled: true
